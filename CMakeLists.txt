@@ -5,15 +5,15 @@ project(Character_Codes LANGUAGES C CXX)
 add_executable(
 	character_codes
 	"Source.cpp" 
-	"ASCII_Lines.h"
-	"ASCII_Lines.cpp")
+	"Line_Codes.h"
+	"Line_Codes.cpp")
 
 #set(BUILD_SHARED_LIBS YES)
 
 add_library(
 	line_codes
 	STATIC
-	ASCII_LINES.h
-	ASCII_LINES.cpp
+	LINE_CODES.h
+	LINE_CODES.cpp
 )
 

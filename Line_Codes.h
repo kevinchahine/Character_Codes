@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ASCII
+namespace UNICODE_8
 {
 	extern const unsigned char LINES[];
 	

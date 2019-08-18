@@ -2,10 +2,10 @@
 #include <iomanip>
 #include <string>
 
-#include "ASCII_Lines.h"
+#include "Line_Codes.h"
 
 using namespace std;
-using namespace ASCII;
+using namespace UNICODE_8;
 
 int main()
 {

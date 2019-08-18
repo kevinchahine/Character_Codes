@@ -1,6 +1,6 @@
-#include "ASCII_Lines.h"
+#include "Line_Codes.h"
 
-namespace ASCII {
+namespace UNICODE_8 {
 	const unsigned char LINES[] = {
 		'#', '#', '#',
 		static_cast<unsigned char>(196), //	0000 0011
